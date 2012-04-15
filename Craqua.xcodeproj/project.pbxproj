@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84922BB0153B51C200AD9610 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84922BAF153B51C100AD9610 /* QuartzCore.framework */; };
+		84E79AC0153B47A100389C0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E79ABF153B47A100389C0A /* UIKit.framework */; };
+		84E79AC2153B47A100389C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E79AC1153B47A100389C0A /* Foundation.framework */; };
+		84E79AC4153B47A100389C0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E79AC3153B47A100389C0A /* CoreGraphics.framework */; };
+		84E79ACA153B47A100389C0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E79AC8153B47A100389C0A /* InfoPlist.strings */; };
+		84E79ACC153B47A100389C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E79ACB153B47A100389C0A /* main.m */; };
+		84E79AD0153B47A100389C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E79ACF153B47A100389C0A /* AppDelegate.m */; };
+		84E79AE1153B48F700389C0A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E79AE0153B48F700389C0A /* OpenGLES.framework */; };
+		84FDFA74153B6E3C004580F0 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDFA6E153B6E3C004580F0 /* Application.m */; };
+		84FDFA75153B6E3C004580F0 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDFA70153B6E3C004580F0 /* AppViewController.m */; };
+		84FDFA76153B6E3C004580F0 /* GLCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDFA72153B6E3C004580F0 /* GLCanvas.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84922BAF153B51C100AD9610 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84E79ABB153B47A100389C0A /* Craqua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Craqua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E79ABF153B47A100389C0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84E79AC1153B47A100389C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84E79AC3153B47A100389C0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84E79AC7153B47A100389C0A /* Craqua-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Craqua-Info.plist"; sourceTree = "<group>"; };
+		84E79AC9153B47A100389C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84E79ACB153B47A100389C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E79ACD153B47A100389C0A /* Craqua-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Craqua-Prefix.pch"; sourceTree = "<group>"; };
+		84E79ACE153B47A100389C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E79ACF153B47A100389C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E79AE0153B48F700389C0A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		84FDFA6A153B6E3C004580F0 /* bc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bc.h; sourceTree = "<group>"; };
+		84FDFA6D153B6E3C004580F0 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		84FDFA6E153B6E3C004580F0 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
+		84FDFA6F153B6E3C004580F0 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		84FDFA70153B6E3C004580F0 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		84FDFA71153B6E3C004580F0 /* GLCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCanvas.h; sourceTree = "<group>"; };
+		84FDFA72153B6E3C004580F0 /* GLCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCanvas.m; sourceTree = "<group>"; };
+		84FDFA73153B6E3C004580F0 /* TouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E79AB8153B47A100389C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84922BB0153B51C200AD9610 /* QuartzCore.framework in Frameworks */,
+				84E79AE1153B48F700389C0A /* OpenGLES.framework in Frameworks */,
+				84E79AC0153B47A100389C0A /* UIKit.framework in Frameworks */,
+				84E79AC2153B47A100389C0A /* Foundation.framework in Frameworks */,
+				84E79AC4153B47A100389C0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E79AB0153B47A100389C0A = {
+			isa = PBXGroup;
+			children = (
+				84E79AC5153B47A100389C0A /* Craqua */,
+				84E79ABE153B47A100389C0A /* Frameworks */,
+				84E79ABC153B47A100389C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E79ABC153B47A100389C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E79ABB153B47A100389C0A /* Craqua.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E79ABE153B47A100389C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E79AC3153B47A100389C0A /* CoreGraphics.framework */,
+				84E79AC1153B47A100389C0A /* Foundation.framework */,
+				84E79AE0153B48F700389C0A /* OpenGLES.framework */,
+				84922BAF153B51C100AD9610 /* QuartzCore.framework */,
+				84E79ABF153B47A100389C0A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E79AC5153B47A100389C0A /* Craqua */ = {
+			isa = PBXGroup;
+			children = (
+				84FDFA67153B6E3C004580F0 /* classes */,
+				84FDFA68153B6E3C004580F0 /* libs */,
+				84E79ACE153B47A100389C0A /* AppDelegate.h */,
+				84E79ACF153B47A100389C0A /* AppDelegate.m */,
+				84E79AC6153B47A100389C0A /* Supporting Files */,
+			);
+			path = Craqua;
+			sourceTree = "<group>";
+		};
+		84E79AC6153B47A100389C0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E79AC7153B47A100389C0A /* Craqua-Info.plist */,
+				84E79AC8153B47A100389C0A /* InfoPlist.strings */,
+				84E79ACB153B47A100389C0A /* main.m */,
+				84E79ACD153B47A100389C0A /* Craqua-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FDFA67153B6E3C004580F0 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		84FDFA68153B6E3C004580F0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				84FDFA69153B6E3C004580F0 /* bc */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		84FDFA69153B6E3C004580F0 /* bc */ = {
+			isa = PBXGroup;
+			children = (
+				84FDFA6A153B6E3C004580F0 /* bc.h */,
+				84FDFA6B153B6E3C004580F0 /* flash */,
+			);
+			path = bc;
+			sourceTree = "<group>";
+		};
+		84FDFA6B153B6E3C004580F0 /* flash */ = {
+			isa = PBXGroup;
+			children = (
+				84FDFA6C153B6E3C004580F0 /* native */,
+			);
+			path = flash;
+			sourceTree = "<group>";
+		};
+		84FDFA6C153B6E3C004580F0 /* native */ = {
+			isa = PBXGroup;
+			children = (
+				84FDFA6D153B6E3C004580F0 /* Application.h */,
+				84FDFA6E153B6E3C004580F0 /* Application.m */,
+				84FDFA6F153B6E3C004580F0 /* AppViewController.h */,
+				84FDFA70153B6E3C004580F0 /* AppViewController.m */,
+				84FDFA71153B6E3C004580F0 /* GLCanvas.h */,
+				84FDFA72153B6E3C004580F0 /* GLCanvas.m */,
+				84FDFA73153B6E3C004580F0 /* TouchDelegate.h */,
+			);
+			path = native;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E79ABA153B47A100389C0A /* Craqua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E79AD3153B47A100389C0A /* Build configuration list for PBXNativeTarget "Craqua" */;
+			buildPhases = (
+				84E79AB7153B47A100389C0A /* Sources */,
+				84E79AB8153B47A100389C0A /* Frameworks */,
+				84E79AB9153B47A100389C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Craqua;
+			productName = Craqua;
+			productReference = 84E79ABB153B47A100389C0A /* Craqua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E79AB2153B47A100389C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 84E79AB5153B47A100389C0A /* Build configuration list for PBXProject "Craqua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84E79AB0153B47A100389C0A;
+			productRefGroup = 84E79ABC153B47A100389C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E79ABA153B47A100389C0A /* Craqua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E79AB9153B47A100389C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E79ACA153B47A100389C0A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E79AB7153B47A100389C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E79ACC153B47A100389C0A /* main.m in Sources */,
+				84E79AD0153B47A100389C0A /* AppDelegate.m in Sources */,
+				84FDFA74153B6E3C004580F0 /* Application.m in Sources */,
+				84FDFA75153B6E3C004580F0 /* AppViewController.m in Sources */,
+				84FDFA76153B6E3C004580F0 /* GLCanvas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84E79AC8153B47A100389C0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E79AC9153B47A100389C0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E79AD1153B47A100389C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84E79AD2153B47A100389C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E79AD4153B47A100389C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Craqua/Craqua-Prefix.pch";
+				INFOPLIST_FILE = "Craqua/Craqua-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84E79AD5153B47A100389C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Craqua/Craqua-Prefix.pch";
+				INFOPLIST_FILE = "Craqua/Craqua-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E79AB5153B47A100389C0A /* Build configuration list for PBXProject "Craqua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E79AD1153B47A100389C0A /* Debug */,
+				84E79AD2153B47A100389C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E79AD3153B47A100389C0A /* Build configuration list for PBXNativeTarget "Craqua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E79AD4153B47A100389C0A /* Debug */,
+				84E79AD5153B47A100389C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E79AB2153B47A100389C0A /* Project object */;
+}
